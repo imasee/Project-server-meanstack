@@ -11,7 +11,9 @@ app.use('/api/instructors',require('./api/routes/instructor'));
 app.use('/api/courses',require('./api/routes/course'));
 app.use('/api/students',require('./api/routes/student'));
 app.use('/api/login',require('./api/routes/login'));
-
+app.get('/',(req,res)=>{
+    res.send("<html>Welcome<html>");
+});
 
 
 
