@@ -1,0 +1,6 @@
+{
+
+    "mongoConn":"mongodb+srv://imasee:@sf608538@cluster0-ltnjg.mongodb.net/test?retryWrites=true",
+    "e-secret":"elearn-secret"
+ 
+}

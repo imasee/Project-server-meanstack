@@ -1,0 +1,22 @@
+{
+  "name": "e-learn",
+  "version": "1.0.0",
+  "description": "The project will be an online eLearning website where instructors and students will be the main two users of the website. Instructors is able to upload their lessons, users can login and take their lesson as their requirement. And instructor can able to create online class room too where student will take their lessons. After finish a lesson student can bale to sit for examination to a particular lesson and the system will rate the exam result automatically.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nahid & asif",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validation": "^1.0.2",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.14",
+    "nodemon": "^1.19.1"
+  }
+}
